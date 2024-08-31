@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoción de Escuela Privada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de Nosotros</a></li>
+                <li><a href="#programas">Programas</a></li>
+                <li><a href="#admisiones">Admisiones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <a href="#inscripcion" class="cta-button">Inscríbete Ahora</a>
+        </nav>
+    </header>
+
+    <!-- Sección Principal -->
+    <section id="inicio" class="hero-section">
+        <h1>Bienvenido a [Nombre de la Escuela]</h1>
+        <p>Formando líderes del mañana con educación de calidad</p>
+        <a href="#acerca" class="cta-button">Conoce Más</a>
+    </section>
+
+    <!-- Sección Acerca de Nosotros -->
+    <section id="acerca">
+        <h2>Acerca de Nosotros</h2>
+        <p>Conoce nuestra historia, misión y valores...</p>
+        <a href="#" class="info-button" onclick="showModal()">Nuestra Historia</a>
+    </section>
+
+    <!-- Sección Programas -->
+    <section id="programas">
+        <h2>Programas Educativos</h2>
+        <div class="program-card">
+            <h3>Programa 1</h3>
+            <p>Detalles del programa 1...</p>
+            <a href="#" class="info-button">Más Información</a>
+        </div>
+        <div class="program-card">
+            <h3>Programa 2</h3>
+            <p>Detalles del programa 2...</p>
+            <a href="#" class="info-button">Más Información</a>
+        </div>
+        <!-- Añadir más programas según sea necesario -->
+    </section>
+
+    <!-- Sección Admisiones -->
+    <section id="admisiones">
+        <h2>Proceso de Admisiones</h2>
+        <p>Pasos para inscribirse...</p>
+        <a href="#contacto" class="cta-button">Solicita Información</a>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Ponte en contacto con nosotros...</p>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Teléfono" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <h2>Nuestra Historia</h2>
+            <p>Texto de la historia...</p>
+        </div>
+    </div>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2024 [Nombre de la Escuela]. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,188 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #003366;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.cta-button {
+    background-color: #ffcc00;
+    color: #003366;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff9900;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('Fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+}
+
+.hero-section p {
+    font-size: 1.5em;
+}
+
+/* Sección Acerca de Nosotros */
+#acerca {
+    background-color: #e0e0e0;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.info-button {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.info-button:hover {
+    background-color: #002244;
+}
+
+/* Sección Programas */
+#programas {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.program-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.program-card:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección Admisiones */
+#admisiones {
+    background-color: #e0e0e0;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Sección Contacto */
+#contacto {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#contacto form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contacto form input, #contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contacto form button {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contacto form button:hover {
+    background-color: #002244;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
